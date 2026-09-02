@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>HTML Notes</h1>
+
+    <fieldset>
+        <!-- PAGE 1 -->
+
+    <h2>HTML</h2>
+
+    <ul>
+        <li>HTML stands for hyper text Markup Language.</li>
+
+        <li>It is use to Create the structure of web page.</li>
+
+        <li>It is invented by sir "Tim Berners Lee" in 1991.</li>
+
+        <li>It's first official version lanch in 1993.</li>
+
+        <li>The current version is HTML5 which is lanch in 2014.</li>
+
+        <li>It is maintain by an organization called WWWC (world wide web consortium)</li>
+    </ul>
+
+
+    <h3>Note*</h3>
+
+    <p>
+        In html the file can be created using .html<br>
+        .htm extension.
+    </p>
+
+    <ul>
+        <li>one html file creates one web page.</li>
+
+        <li>one web page is always represented using 1 unique URL.</li>
+    </ul>
+
+
+    <h2>What is tag?</h2>
+
+    <pre>
+&lt; tag name key=value &gt; Content &lt;/ tag-name&gt;
+    </pre>
+
+    <p>Attributes</p>
+    <p>opening tag</p>
+    <p>closing tag</p>
+    <p>Element / tag</p>
+
+    <h3>Content</h3>
+
+    <p>text</p>
+
+    <p>ex:-</p>
+
+    <pre>
+&lt;p&gt; Hello &lt;/p&gt;
+    </pre>
+
+
+    <p>Nest tag</p>
+
+    <p>ex:-</p>
+
+    <pre>
+&lt;body&gt;
+    &lt;p&gt; Hello &lt;/p&gt;
+&lt;/body&gt;
+    </pre>
+
+
+    <!-- PAGE 2 -->
+
+    <ul>
+        <li>Tag Consist of opening tag closing tag attributes and content</li>
+    </ul>
+
+
+    <h2>Attribute-</h2>
+
+    <ul>
+        <li>Attributes are the properties.</li>
+
+        <li>It is use to provide addition info. about the tag</li>
+
+        <li>There are 2 types of attributes.</li>
+    </ul>
+
+
+    <h3>1) Global attributes-</h3>
+
+    <ul>
+        <li>This attributes use with any tag.</li>
+
+        <li>ex- id, class, title, style, etc.</li>
+    </ul>
+
+
+    <h3>2) Element specific attributes:-</h3>
+
+    <ul>
+        <li>This attribute can be use with specific tag only.</li>
+
+        <li>
+            ex- href (&lt;a&gt;), target, src (img, video audio)
+        </li>
+    </ul>
+
+    <p>Attributes must be written in opening tag.</p>
+
+
+    <h2>Semantic tags:-</h2>
+
+    <ul>
+        <li>This are self explanatory tag.</li>
+
+        <li>This tag name tells the use of the tag.</li>
+
+        <li>
+            We use semantic tags to increase readability of code and semantic tags helps in SEO
+            (Search engine optimization).
+        </li>
+
+        <li>Ex- nav, header, footer, img, form, button etc.</li>
+    </ul>
+
+
+    <!-- PAGE 3 -->
+
+    <h2>HTML Boiler plate-</h2>
+
+    <ul>
+        <li>It consist of doc type declaration, html tag, head tag and body tag.</li>
+    </ul>
+
+
+    <h3>1) Doc type Declaration</h3>
+
+    <ul>
+        <li>It is not a tag, it is a declaration.</li>
+
+        <li>It is use to specify html version like html5</li>
+    </ul>
+
+
+    <h3>2) HTML tag</h3>
+
+    <ul>
+        <li>
+            It is the parent tag. we should not write anything outside this tag.
+        </li>
+
+        <li>Default Font Size is 16 px.</li>
+    </ul>
+
+
+    <h3>3) Head tag.</h3>
+
+    <ul>
+        <li>It is use to store the meta data.</li>
+    </ul>
+
+    <p>ex-</p>
+
+    <pre>
+&lt;meta name="keyword" content=
+        "@spider"&gt;
+    </pre>
+
+
+    <h3>* meta data-</h3>
+
+    <ul>
+        <li>It is data about data (info about web page)</li>
+
+        <li>
+            we write metadata to make website SEO friendly so that we can reach
+            out with Maximum no. of users.
+        </li>
+    </ul>
+
+
+    <p>
+        * Head tag also store additional instruction like favlinks, css file link, etc.
+    </p>
+
+
+    <!-- PAGE 4 -->
+
+    <h3>4) Body tag.</h3>
+
+    <ul>
+        <li>It is use to display Content on UI.</li>
+    </ul>
+
+
+    <h2>&lt;a&gt; tag- [Anchor tag]</h2>
+
+    <ul>
+        <li>It is use to navigate from one place to another.</li>
+
+        <li>It is a inline element.</li>
+
+        <li>attributes</li>
+    </ul>
+
+
+    <h3>a) HREF (Hyper reference):-</h3>
+
+    <ul>
+        <li>It is use to specify the path where to navigate.</li>
+    </ul>
+
+
+    <h3>b) target</h3>
+
+    <ul>
+        <li>It is use to specify where the link should open.</li>
+    </ul>
+
+    <p>
+        ex:- self (target="_self") default
+    </p>
+
+    <p>
+        target="_blank"
+    </p>
+
+    <p>- link will open in same tab.</p>
+
+
+    <h3>example anchor tag:</h3>
+
+    <pre>
+&lt;body&gt;
+    &lt;a href="https://www.google.com"
+        target="_blank"&gt; Go Google &lt;/a&gt;
+&lt;/body&gt;
+    </pre>
+
+
+    <!-- PAGE 5 -->
+
+    <h2>Characteristics of &lt;a&gt;-</h2>
+
+
+    <h3>1) Colors -</h3>
+
+    <p>a) Not Visited - Blue Color.</p>
+
+    <p>b) Visited - Purple Color.</p>
+
+    <p>c) Active - Red Color.</p>
+
+
+    <p>2) Default it comes with underline.</p>
+
+    <p>3) on hover mouse pointer change to hand gesture</p>
+
+
+    <h2>- Use of anchor tag.</h2>
+
+    <p>
+        The anchor tag (&lt;a&gt;) in HTML5 is used to
+        Create hyperlinks between web pages, files
+        email address, phone numbers or different
+        Sections of the same pages.
+    </p>
+
+
+    <h3>1) Links to another page-</h3>
+
+    <pre>
+&lt;a href="link"&gt;Google &lt;/a&gt;
+    </pre>
+
+
+    <h3>2) Link to another page in the same website.</h3>
+
+    <pre>
+&lt;a href="about.html"&gt; About us &lt;/a&gt;
+    </pre>
+
+
+    <h3>3) Link to specific section of a page.</h3>
+
+    <pre>
+&lt;a href='#contact'&gt; Go to Contact &lt;/a&gt;
+    </pre>
+
+
+    <h3>4) open a links in new browser.</h3>
+
+    <pre>
+&lt;a href="google link" target="_blank"&gt; google
+&lt;/a&gt;
+    </pre>
+
+
+    <!-- PAGE 6 -->
+
+    <h3>5) Send an email.</h3>
+
+    <pre>
+&lt;a href:"mail) to abc @ example.com"&gt; Email
+&lt;/a&gt;
+    </pre>
+
+
+    <h3>6) make phone call-</h3>
+
+    <pre>
+&lt;a href:"tel: +918876543210"&gt; Call us &lt;/a&gt;
+    </pre>
+
+
+    <h3>7) Download a file.</h3>
+
+    <pre>
+&lt;a href= "notes.pdf" download &gt; Download
+Note &lt;/a&gt;
+    </pre>
+
+
+    <h2>Difference between block & inline element.</h2>
+
+
+    <h3>Block</h3>
+
+    <ol>
+        <li>
+            Block level element it always start from new line.
+        </li>
+
+        <li>
+            It occupies full width (100%) of the container.
+        </li>
+
+        <li>
+            It accepts width & height
+        </li>
+
+        <li>
+            ex:- div, p, h1 to h6 nav etc.
+        </li>
+    </ol>
+
+
+    <h3>inline.</h3>
+
+    <ol>
+        <li>
+            Inline element it start with same line.
+        </li>
+
+        <li>
+            It occupies the width of context.only
+        </li>
+
+        <li>
+            It does not accept width & height.
+        </li>
+
+        <li>
+            span, img, iframe, etc.
+        </li>
+    </ol>
+
+
+    <!-- PAGE 7 -->
+
+    <h2>HTML text formatting tags.</h2>
+
+
+    <h3>1) &lt;b&gt; bold / &lt;strong&gt; -> SEO friendly.</h3>
+
+    <p>- make a text bold.</p>
+
+    <pre>
+&lt;b&gt;Hello &lt;/b&gt; ->
+    </pre>
+
+
+    <h3>2) &lt;i&gt; Italic / &lt;em&gt; emphasis</h3>
+
+    <p>- Display text in italic.</p>
+
+    <pre>
+&lt;i&gt;Hello &lt;/i&gt;
+    </pre>
+
+
+    <h3>3) &lt;u&gt; Underline</h3>
+
+    <p>- To underline text</p>
+
+    <pre>
+&lt;u&gt;Hello &lt;/u&gt;
+    </pre>
+
+
+    <h3>4) &lt;sup&gt; SuperScript</h3>
+
+    <p>- Display text above the normal line.</p>
+
+    <pre>
+x &lt;sup&gt;2 &lt;/sup&gt; -> x²
+    </pre>
+
+
+    <h3>5) &lt;sub&gt; Subscript</h3>
+
+    <p>- Display text below the normal line</p>
+
+    <pre>
+H &lt;sub&gt;2 &lt;/sub&gt;O -> H₂O
+    </pre>
+
+
+    <p>
+        6) &lt;br&gt; line Breaks - Move to the next line
+    </p>
+
+    <p>
+        7) &lt;hr&gt; Horizontal rule - Draw the horizontal line.
+    </p>
+
+    <p>
+        8) &lt;code&gt; Display Computer code in a monospace font.
+    </p>
+
+    <p>
+        9) &lt;address&gt; - Display Contact or address info.
+    </p>
+
+    <p>
+        10) &lt;q&gt; quote - create short inline quotation.
+    </p>
+
+
+    <!-- PAGE 8 -->
+
+    <h2>media tag.</h2>
+
+    <p>
+        1) &lt;img&gt;&nbsp;&nbsp;
+        2) &lt;audio&gt;&nbsp;&nbsp;
+        3) &lt;video&gt;
+    </p>
+
+
+    <h3>1) &lt;img&gt; - It is use to add image.</h3>
+
+    <p>
+        Image can be added using two different way.
+    </p>
+
+    <p>
+        a) From browser as copy img address.
+    </p>
+
+    <p>
+        b) Using local path.
+    </p>
+
+
+    <h3>* Attributes with image.</h3>
+
+    <p>
+        1&gt; src (source) - use to provide the path of file.
+    </p>
+
+    <p>
+        2&gt; alt (alternative text) - use to provide alternative text if img is broken
+    </p>
+
+    <p>
+        3&gt; &lt;width&gt; &lt;height&gt;
+    </p>
+
+
+    <h3>2) &lt;video&gt; - It is used to add video.</h3>
+
+    <p>Attributes of video.</p>
+
+    <p>1&gt; src</p>
+
+    <p>
+        2&gt; Controls - use to enable the control so that we can play & pause the
+    </p>
+
+    <p>
+        3&gt; loop - use to repeatedly plays the video
+    </p>
+
+    <p>
+        4&gt; muted - initially keeps the video muted which can be unmuted.
+    </p>
+
+    <p>
+        5&gt; auto play - automatically plays the video upon visiting the page.
+    </p>
+
+    <p>
+        To use autoplay muted is mandatory
+    </p>
+
+    <p>
+        6&gt; &lt;width&gt; &lt;height&gt;
+    </p>
+
+
+    <!-- PAGE 9 -->
+
+    <h3>3) &lt;audio&gt;</h3>
+
+    <p>
+        It is use to add audio it is same as video only the diff is we can not use width & height.
+    </p>
+
+
+    <h2>iframe:-</h2>
+    </fieldset>
+
+    
+
+
+</body>
+</html>
