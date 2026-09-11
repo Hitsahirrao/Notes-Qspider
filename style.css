@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+
+body{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#282829; 
+    background-image: url(./assets/binaryimg.jpg);
+    background-size: 300vh;
+    /* background-repeat:no-repeat; */
+    /* background-size:cover;  */
+}
+
+main{
+    height: 70%;
+    width: 70%;
+    border-right: 10px solid  rgb(152, 152, 152);
+    border-bottom: 10px solid  rgb(152, 152, 152);
+    background-color: white;
+    border-radius: 25px;
+}
+
+nav{
+    height: 15%;
+    /* border-bottom: 1px solid; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: aliceblue; */
+}
+
+#logo{
+    padding-left: 30px ;
+}
+#logo img{
+    width: 80px;
+    padding-top: 20px;
+}
+
+#nav_content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 50px;
+    padding-right: 30px;
+}
+
+#nav_content h4 a{
+    text-decoration: none;
+    color: hsl(231, 59%, 29%);
+}
+#home :hover{
+    font-size:small;
+    color: aqua;
+}
+#about :hover{
+    font-size:small;
+    color: aqua;
+}
+#portfoilo :hover{
+    font-size:small;
+    color: aqua;
+}
+#contact :hover{
+    font-size:small;
+    color: aqua;
+}
+
+#title{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(18, 72, 30);
+    /* font-family: "Edu NSW ACT Cursive", cursive; */
+
+    /* border: 1px solid; */
+}
+
+#heroSection h4{
+    height: 10%;
+}
+
+.subjects{
+    display:flex;
+    justify-content: center;
+}
+
+.subjects div{
+    height:150px;
+    width: 200px;
+    /* border: 1px solid; */
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.subsec1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsec1 div a{
+    text-decoration: none;
+    color: #282829;    
+}
+.subsec1 :hover{
+    background-color: chartreuse;
+    text-transform:uppercase;
+}
+
+#web{
+    background-image: url(./assets/webtech.jpg);
+    background-size: 350px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#java{
+    background-image: url(./assets/java.png);
+    background-size: 350px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#sql{
+    background-image: url(./assets/21742844_6470822.jpg);
+    background-size: 350px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#manual{
+    background-image: url(./assets/manualTesting.jpg);
+    background-size: 350px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
