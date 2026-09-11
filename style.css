@@ -124,6 +124,9 @@ nav{
     background-repeat:no-repeat;
     background-size:cover;
 }
+#web :hover{
+    background-color: aqua;
+}
 #java{
     background-image: url(./assets/java.png);
     background-size: 350px;
