@@ -10,9 +10,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#282829; 
+    /* background-color:#282829;  */
     background-image: url(./assets/binaryimg.jpg);
     background-size: 300vh;
+    /* background-repeat:no-repeat; */
+    /* background-size:cover;  */
+} 
+.mainSection{
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color:#282829;  */
+    /* background-image: url(./assets/binaryimg.jpg);
+    background-size: 300vh; */
     /* background-repeat:no-repeat; */
     /* background-size:cover;  */
 }
@@ -28,6 +40,7 @@ main{
 
 nav{
     height: 15%;
+    width: 100%;
     /* border-bottom: 1px solid; */
     display: flex;
     justify-content: left;
@@ -75,7 +88,7 @@ nav{
 }
 
 #title{
-    height: 85%;
+    /* height: 85%; */
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -146,3 +159,23 @@ nav{
     background-size:cover;
 }
 
+.chatbot{ 
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+}
+#chatbot {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#chatbot i{
+    font-size: 30px;
+    color: hsl(231, 59%, 29%);
+}
