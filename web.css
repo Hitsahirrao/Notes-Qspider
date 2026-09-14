@@ -11,8 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     /* background-color:#282829;  */
-    background-image: url(./assets/background_img.jpg);
-    background-size: 300vh;
+    background-image: url(./assets/webtech.jpg);
+    background-size: 200vh;
     /* background-repeat:no-repeat; */
     background-size:cover; 
 } 
@@ -117,7 +117,7 @@ nav{
 .subjects div{
     height:150px;
     width: 200px;
-    /* border: 1px solid; */
+    border: 1px solid;
     margin: 15px;
     border-radius: 10px;
 }
@@ -126,6 +126,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .subsec1 div a{
@@ -137,7 +138,7 @@ nav{
     text-transform:uppercase;
 }
 
-#web{
+/* #web{
     background-image: url(./assets/webtech.jpg);
     background-size: 350px;
     background-repeat:no-repeat;
@@ -163,7 +164,7 @@ nav{
     background-size: 350px;
     background-repeat:no-repeat;
     background-size:cover;
-}
+} */
 
 .chatbot{ 
     position: fixed;
